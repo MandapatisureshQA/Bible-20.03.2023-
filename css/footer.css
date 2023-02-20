@@ -1,0 +1,92 @@
+.footer-container {
+    width: 100%;
+    background:  #ff97b7;
+    background: -webkit-linear-gradient(to right, #ff5d8f, #ff97b7);  
+    background: linear-gradient(to right, #ff5d8f, #ff97b7);
+   
+}
+.footer-container .footer-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-container .nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 3px;
+}
+.footer-container .nav-links-main {
+    margin-top: 50px;
+}
+.footer-container .nav-link {
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 1px;
+    column-gap: 50px;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.footer-container  .underline {
+    /* background: black; */
+    border-bottom: white 5px solid;
+}
+
+.footer-container .nav-links img {
+    width: 20px;
+}
+.footer-container .footer-text p {
+    color: white;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+@media screen and (min-width:992px) {
+    .footer-container {
+       width: 100%;
+    }
+    
+    .footer-container .footer-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 1250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer-container .nav-links-main {
+        display: flex;
+    }
+    .footer-container .nav-links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .footer-container .nav-link {
+        color: white;
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: 1px;
+        column-gap: 40px;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+    .nav-container .nav-link.active,
+    .nav-container .nav-link:hover {
+        background-color: white;
+        color: black;
+                
+    }
+  
+}
