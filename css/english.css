@@ -6,6 +6,7 @@
 .hero-container .main-text h1 {
     text-align: center;
     color: white;
+    
 }
 .hero-container .old-testament h2,
 .hero-container .new-testament h2 
@@ -39,6 +40,31 @@
     letter-spacing: 0.5px;
 
 }
+.hero-container .chapter-text h1 {
+    color:  whitesmoke;
+    padding-left: 20px;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 20px;
+}
+.hero-container .chapter-links{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+    padding-left: 20px;
+    padding-top: 10px;
+  
+}
+.hero-container .chapter-link {
+    color: black;
+    font-size: 11px;
+}
+.hero-container .chapter-link:hover {
+    background: white;
+    color: #000;
+    padding: 5px;
+    border-radius: 3px;
+}
 
 @media screen and (min-width:992px) {
     .hero-container .testament-group {
@@ -63,4 +89,13 @@
         letter-spacing: 0.5px;
 
     }
-}
+    .hero-container .chapter-links{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+         row-gap: 10px;   
+    }
+    .hero-container .chapter-link {
+        font-size: 15px; 
+        color: #000;
+    }
+    }

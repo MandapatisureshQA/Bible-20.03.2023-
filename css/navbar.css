@@ -3,6 +3,7 @@
     background: -webkit-linear-gradient(to right, #ff5d8f, #ff97b7);  
     background: linear-gradient(to right, #ff5d8f, #ff97b7);
     width: 100%;
+    box-shadow:  0 0 10px black;
 }
 .nav-container.sticky-nav {
     position: fixed;
