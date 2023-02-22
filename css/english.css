@@ -50,14 +50,15 @@
 .hero-container .chapter-links{
     display: flex;
     flex-direction: column;
-    row-gap: 3px;
-    padding-left: 20px;
+    row-gap: 8px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-top: 10px;
   
 }
 .hero-container .chapter-link {
     color: black;
-    font-size: 11px;
+    font-size: 15px;
 }
 .hero-container .chapter-link:hover {
     background: white;
@@ -82,11 +83,8 @@
     padding-bottom: 5px;
     line-height: 24px;
 }
-.first {
-
-}
 .first::first-letter {
-    font-size: 200%;
+    font-size: 300%;
     color: black;
     font-weight: bold;
     text-indent: 50px;
@@ -97,6 +95,7 @@
 }
 .number span {
     color: black;
+    font-weight: bold;
 }
 
 @media screen and (min-width:992px) {

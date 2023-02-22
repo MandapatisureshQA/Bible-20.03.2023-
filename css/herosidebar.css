@@ -46,13 +46,19 @@
 }
 .hero-sidebar-container .chapter-link {
     color: white;
-    font-size: 11px;
+    font-size: 14px;
     margin-left: 5px;
     letter-spacing: 0.5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.hero-sidebar-container .chapter-link.active {
+    background: white;
+    color: #000;
 }
 
 @media screen and (min-width:992px) {
     .middle-nav-container {
-        display: none;
+        /* display: none; */
     }
 }
