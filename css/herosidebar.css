@@ -10,6 +10,18 @@
     display: flex;
     align-items: center;
     column-gap: 5px;
+  
+}
+.middle-nav-header.sticky-nav {
+    position: fixed;
+    background: none;
+    top: 0;
+    left: 0;
+    width:80%;
+    margin-top: 2px;
+    margin-left: 40px;
+    z-index: 20;
+    transition: all 0.3s linear;
 }
 .hero-sidebar-container {
     width: 100%;
@@ -60,5 +72,11 @@
 @media screen and (min-width:992px) {
     .middle-nav-container {
         /* display: none; */
+    }
+    .middle-nav-header.sticky-nav {
+        margin-top: 17px;
+        margin-left: 20px;
+        z-index: 20;
+        transition: all 0.4s linear;
     }
 }

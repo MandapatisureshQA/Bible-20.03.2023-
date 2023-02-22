@@ -85,16 +85,16 @@
 }
 .first::first-letter {
     font-size: 300%;
-    color: black;
+    color: red;
     font-weight: bold;
     text-indent: 50px;
 }
 .number::first-letter {
-    color: black
+    color: red;
     font-weight: bold;
 }
 .number span {
-    color: black;
+    color: red;
     font-weight: bold;
 }
 
@@ -115,7 +115,7 @@
         padding-top: 10px; */
     }
     .hero-container .nav-link {
-        color: white;
+        color: black;
         font-size: 17px;
         font-weight: bold;
         letter-spacing: 0.5px;
@@ -125,6 +125,8 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
          row-gap: 10px;   
+         padding-bottom: 30px;
+         padding-top: 30px;
     }
     .hero-container .chapter-link {
         font-size: 15px; 
