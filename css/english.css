@@ -1,7 +1,7 @@
 .hero-container {
-    background:  #ff97b7;
+    /* background:  #ff97b7;
     background: -webkit-linear-gradient(to right, #ff5d8f, #ff97b7);  
-    background: linear-gradient(to right, #ff5d8f, #ff97b7);
+    background: linear-gradient(to right, #ff5d8f, #ff97b7); */
 }
 .hero-container .main-text h1 {
     text-align: center;
@@ -41,7 +41,7 @@
 
 }
 .hero-container .chapter-text h1 {
-    color:  whitesmoke;
+    color:  red;
     padding-left: 20px;
     text-align: center;
     text-decoration: underline;
@@ -87,16 +87,16 @@
 }
 .first::first-letter {
     font-size: 200%;
-    color: white;
+    color: black;
     font-weight: bold;
     text-indent: 50px;
 }
 .number::first-letter {
-    color: white;
+    color: black
     font-weight: bold;
 }
 .number span {
-    color: white;
+    color: black;
 }
 
 @media screen and (min-width:992px) {
