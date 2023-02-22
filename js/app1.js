@@ -12,3 +12,6 @@ const closeSidebar1 = () => {
 
 hamburger1.addEventListener("click", openSidebar1 );
 closeButton1.addEventListener("click", closeSidebar1);
+
+
+
