@@ -14,20 +14,20 @@ closeButton.addEventListener("click", closeSidebar);
 
 
 
-const hamburger1 = document.querySelector(".middle-nav-hamburger");
-const closeButton1 = document.querySelector(".close-button1");
-const sidebarContainer1 = document.querySelector(".hero-sidebar-container");
+// const hamburger1 = document.querySelector(".middle-nav-hamburger");
+// const closeButton1 = document.querySelector(".close-button1");
+// const sidebarContainer1 = document.querySelector(".hero-sidebar-container");
 
-const openSidebar1 = () => {
-    sidebarContainer1.classList.add("show-sidebar");
-    }
+// const openSidebar1 = () => {
+//     sidebarContainer1.classList.add("show-sidebar");
+//     }
 
-const closeSidebar1 = () => {
-    sidebarContainer1.classList.remove("show-sidebar");
-    }
+// const closeSidebar1 = () => {
+//     sidebarContainer1.classList.remove("show-sidebar");
+//     }
 
-hamburger1.addEventListener("click", openSidebar1 );
-closeButton1.addEventListener("click", closeSidebar1);
+// hamburger1.addEventListener("click", openSidebar1 );
+// closeButton1.addEventListener("click", closeSidebar1);
 
 
 
@@ -66,24 +66,24 @@ window.addEventListener("scroll", function()
 // }
 
 
-manualHamburger.addEventListener("click", manualOpenSidebar );
-manualCloseButton.addEventListener("click", manualCloseSidebar);
+// manualHamburger.addEventListener("click", manualOpenSidebar );
+// manualCloseButton.addEventListener("click", manualCloseSidebar);
 
 
-//mibile sidebar sticky
+// //mibile sidebar sticky
 
-const navbarContainer1 = document.querySelector(".title-nav-header");
-window.addEventListener("scroll", function()
-{
-    const scrollNumber = window.scrollY;
-    const targetNumber = window.innerWidth  >= 992 ? 70 : 50 ;
-    if(scrollNumber >= targetNumber)
-    {
-        navbarContainer1.classList.add("sticky-nav");
-    }
-    else
-    {
-        navbarContainer1.classList.remove("sticky-nav");
-    }
-});
+// const navbarContainer1 = document.querySelector(".title-nav-header");
+// window.addEventListener("scroll", function()
+// {
+//     const scrollNumber = window.scrollY;
+//     const targetNumber = window.innerWidth  >= 992 ? 70 : 50 ;
+//     if(scrollNumber >= targetNumber)
+//     {
+//         navbarContainer1.classList.add("sticky-nav");
+//     }
+//     else
+//     {
+//         navbarContainer1.classList.remove("sticky-nav");
+//     }
+// });
 
