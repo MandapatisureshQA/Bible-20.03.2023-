@@ -12,8 +12,8 @@
 .hero-container .new-testament h2 
  {
     font-size: 20px;
-    color: white;
-    border-bottom: 5px solid white;
+    color: black;
+    border-bottom: 5px solid black;
     border-radius: 10px;
     text-align: center;
 }
@@ -35,7 +35,7 @@
     row-gap: 10px;
 }
 .hero-container .nav-link {
-    color: white;
+    color: black;
     font-weight: 500;
     letter-spacing: 0.5px;
 
