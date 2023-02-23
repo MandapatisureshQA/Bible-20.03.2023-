@@ -7,15 +7,16 @@
     margin-right: auto;
 }
 .middle-container .cards-group {
-    width: 330px;
+    width: 250px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 30px;
     box-shadow: 0 0 10px black;
     margin-bottom: 30px;
     border-radius: 10px;
 }
 .middle-container  .card-image img {
-    width: 330px;
+    width: 250px;
     border-radius: 10px;
 }
 .middle-container .card-text {
