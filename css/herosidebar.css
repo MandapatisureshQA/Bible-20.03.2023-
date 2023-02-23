@@ -23,6 +23,9 @@
     z-index: 20;
     transition: all 0.3s linear;
 }
+.middle-nav-container .middle-nav-text p {
+    color: white;
+}
 .hero-sidebar-container {
     width: 100%;
     height: 100vh;
