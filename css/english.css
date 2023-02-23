@@ -42,10 +42,10 @@
 }
 .hero-container .chapter-text h1 {
     color:  red;
-    padding-left: 20px;
     text-align: center;
     text-decoration: underline;
     padding-top: 20px;
+    font-size: 22px;
 }
 .hero-container .chapter-links{
     display: flex;
@@ -96,6 +96,24 @@
 .number span {
     color: red;
     font-weight: bold;
+}
+.hero-container .foot-notes {
+    margin-bottom: 20px;
+}
+.hero-container .foot-notes h4{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: red;
+    text-decoration: underline;
+}
+.hero-container .foot-notes p {
+   
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    color: blue;
+    font-size: 13px;
 }
 
 @media screen and (min-width:992px) {
