@@ -8,19 +8,20 @@
     color: white;
     
 }
+
 .hero-container .old-testament h2,
 .hero-container .new-testament h2 
  {
     font-size: 20px;
-    color: black;
-    border-bottom: 5px solid black;
+    color: red;
+    border-bottom: 5px solid red;
     border-radius: 10px;
     text-align: center;
 }
 
 .hero-container .testament-group {
     display: flex;
-    column-gap: 50px;
+    column-gap: 60px;
     /* justify-content: space-between; */
     padding: 20px;
 }
