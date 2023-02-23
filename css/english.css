@@ -21,7 +21,7 @@
 
 .hero-container .testament-group {
     display: flex;
-    column-gap: 60px;
+    column-gap: 70px;
     /* justify-content: space-between; */
     padding: 20px;
 }
